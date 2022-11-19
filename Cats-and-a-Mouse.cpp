@@ -1,3 +1,7 @@
+#include <bits/stdc++.h>
+using namespace std;
+vector<string> split_string(string);
+
 string catAndMouse(int x, int y, int z)
 {
     string result = "Cat A";
