@@ -5,9 +5,10 @@ vector<string> split_string(string);
 // Complete the catAndMouse function below.
 string catAndMouse(int x, int y, int z)
 {
-    string result = "Mouse C";
     int x_z = std::abs(x-z);
     int y_z = std::abs(y-z);
+
+    string result = "Mouse C";
     
     if (x_z < y_z)
     {
